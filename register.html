@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/media/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <a href="/">
+            <img src="media/logo_dark_1x.png" alt="Logo of Move Forward" class="logo-sm">
+        </a>
+        <form class="login-form" method="post">
+            <h2>Register</h2>
+            <p>Join millions of friends who decide to <span class="text-primary">move forward </span>in their career.
+            </p>
+            <div class="input-group">
+                <label for="name">Full name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="display-name">Display name</label>
+                <input type="text" id="display-name" name="display-name">
+            </div>
+            <div class="input-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Select your gender...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="career-goal">Career goal</label>
+                <input type="text" id="career-goal" name="career-goal">
+            </div>
+            <div class="input-group">
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Move forward</button>
+            <p class="text-light text-center">Already have an account? <a href="login.html"
+                    class="text-underline text-light">Login here</a>
+            </p>
+        </form>
+        <div class="copyright">
+            <p class="copyright-note text-light">Move Forward &copy;
+                <span id="current-year">2024</span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
