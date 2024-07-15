@@ -374,7 +374,7 @@ a:hover, .nav-items a.active {
 /* #region Section about */
 
 section.about .container {
-    background: url('/media/about-the-app.svg') bottom right / 450px 450px no-repeat;
+    background: url('./media/about-the-app.svg') bottom right / 450px 450px no-repeat;
 }
 
 .about-block p {
