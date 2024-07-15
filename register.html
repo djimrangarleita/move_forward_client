@@ -14,7 +14,7 @@
         <a href="./">
             <img src="./media/logo_dark_1x.png" alt="Logo of Move Forward" class="logo-sm">
         </a>
-        <form class="login-form" method="post">
+        <form class="login-form" method="post" id="registration-form">
             <h2>Register</h2>
             <p>Join millions of friends who decide to <span class="text-primary">move forward </span>in their career.
             </p>
@@ -24,7 +24,7 @@
             </div>
             <div class="input-group">
                 <label for="display-name">Display name</label>
-                <input type="text" id="display-name" name="display-name">
+                <input type="text" id="display-name" name="displayName">
             </div>
             <div class="input-group">
                 <label for="email">Email *</label>
@@ -44,13 +44,14 @@
             </div>
             <div class="input-group">
                 <label for="career-goal">Career goal</label>
-                <input type="text" id="career-goal" name="career-goal">
+                <input type="text" id="career-goal" name="goal">
             </div>
             <div class="input-group">
                 <label for="password">Password *</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="btn btn-primary">Move forward</button>
+            <p class="text-danger form-error"></p>
+            <button type="submit" class="btn btn-primary" id="submit-btn">Move forward</button>
             <p class="text-light text-center">Already have an account? <a href="./login.html"
                     class="text-underline text-light">Login here</a>
             </p>
@@ -62,5 +63,6 @@
         </div>
     </div>
 </body>
+<script src="./scripts/register.js" type="module"></script>
 
 </html>
