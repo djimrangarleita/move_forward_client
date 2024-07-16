@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (rawdata.status === 200) {
-                window.location.href = '../my-application.html';
+                window.location.href = './../my-application.html';
             } else {
                 throw Error;
             }

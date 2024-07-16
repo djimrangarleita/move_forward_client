@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async (_) => {
 
     logoutBtn.addEventListener('click', (_) => {
         logout();
-        window.location.href = '../login.html';
+        window.location.href = './../login.html';
     });
 
     const username = document.querySelector('#username');

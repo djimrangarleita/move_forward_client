@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (rawdata.status === 201) {
-                window.location.href = '../login.html';
+                window.location.href = './../login.html';
             } else {
                 const data = await rawdata.json();
                 throw Error(data.error || 'unknown error');
