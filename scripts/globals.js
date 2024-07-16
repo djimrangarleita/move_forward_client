@@ -1,4 +1,4 @@
-export const serverAddress = "http://54.160.125.191";
+export const serverAddress = "http://www.specialchar.tech";
 // export const serverAddress = "http://localhost:3000";
 export const serverStatusRoute = `${serverAddress}/api/status`;
 export const loginRoute = `${serverAddress}/api/auth/login`;
